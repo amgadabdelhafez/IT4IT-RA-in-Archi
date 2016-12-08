@@ -1,5 +1,5 @@
 # IT4IT-RA-in-Archi
-IT4IT Reference Architecture modeled in ArhiMate Language, using Archi Tool
+IT4IT Reference Architecture modeled in ArchiMate Language, using Archi Tool
 ==
 ##IT4IT
 The IT4IT Reference Architecture prescribes holistic management of the business of IT with continuous insight and control, enabling Boundaryless Information Flow™ across the entire IT Value Chain.
