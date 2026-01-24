@@ -6,8 +6,8 @@
       <documentation>{in_progress, canceled, paused, completed, breached}</documentation>
     </element>
     <element xsi:type="archimate:ApplicationComponent" id="824f83e3" name="ServiceNow"/>
-    <element xsi:type="archimate:ApplicationComponent" id="cefcbf8e" name="Users Controler"/>
-    <element xsi:type="archimate:ApplicationComponent" id="78ec8045" name="User Wallt"/>
+    <element xsi:type="archimate:ApplicationComponent" id="cefcbf8e" name="Users Controller"/>
+    <element xsi:type="archimate:ApplicationComponent" id="78ec8045" name="User Wallet"/>
     <element xsi:type="archimate:DataObject" id="ed1108ee" name="Users"/>
     <element xsi:type="archimate:ApplicationComponent" id="48f5ef2e" name="Enterprise Architecture Component"/>
     <element xsi:type="archimate:DataObject" id="774b264f" name="Service Architecture"/>
@@ -442,7 +442,7 @@
         <bounds x="144" y="20" width="97" height="89"/>
         <content>Strategy to Portfolio
 
-(Pllan)</content>
+(Plan)</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="595fa93e" textAlignment="2" fillColor="#00a6dd" borderColor="#000000" textPosition="1">
         <bounds x="252" y="20" width="97" height="89"/>
@@ -464,7 +464,7 @@
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="1f9b523c" fontColor="#ffffff" textAlignment="2" fillColor="#78447b" borderColor="#000000" textPosition="4">
         <bounds x="144" y="120" width="421" height="37"/>
-        <content>Referenec Architecture</content>
+        <content>Reference Architecture</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="c052fe2b" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
         <bounds x="144" y="168" width="421" height="25"/>
