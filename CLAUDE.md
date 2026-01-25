@@ -33,8 +33,9 @@ IT4IT-RA-in-Archi/
 ├── IT4IT_Reference_Architecture-V0.2.archimate.bak
 ├── IT4IT_Reference_Architecture-V0.3.archimate    # Third iteration
 ├── IT4IT_Reference_Architecture-V0.3.archimate.bak
-├── IT4IT_Reference_Architecture-V0.4.archimate    # Current/latest version
+├── IT4IT_Reference_Architecture-V0.4.archimate    # Updated to IT4IT 3.0 terminology
 ├── IT4IT_Reference_Architecture-V0.4.archimate.bak
+├── IT4IT_Reference_Architecture-V0.5.archimate    # Current/latest - IT4IT 3.0 aligned
 ├── README.md                                       # Project documentation
 ├── CLAUDE.md                                       # This file
 ├── IT4IT/                                          # Additional model files
@@ -99,16 +100,28 @@ Elements use hexadecimal UUID identifiers (e.g., `id="6a18db2b"`).
 
 ## Key Components in the Model
 
-The IT4IT Reference Architecture model includes:
+The IT4IT Reference Architecture model (V0.5, aligned with IT4IT 3.0) includes:
 
 | Category | Components |
 |----------|------------|
-| **Service Management** | ServiceNow, Catalog & Offer Management, Service Portfolio |
+| **Strategy** | Strategy Component (new in 3.0), Policy Component |
+| **Product Management** | Product Portfolio Component, Product Vision, Product Design |
 | **User Management** | Users Controller, User Wallet, Request Management |
-| **Architecture** | Enterprise Architecture Component, Service Architecture |
-| **Development** | Build Management, Test Management, Defect Management |
-| **Operations** | Release & Deployment, Configuration Management, Monitoring |
-| **Support** | Problem Management, Incident Management, SLA Management |
+| **Architecture** | Enterprise Architecture Component, Product Architecture |
+| **Development** | Build Component, Test Component, Defect Component, Source Control |
+| **Operations** | Release Composition, Configuration Management, Product Monitoring |
+| **Support** | Problem Component, Incident Component, Product Level Component |
+
+### IT4IT 3.0 Value Streams
+
+The model now reflects the 7 value streams introduced in IT4IT 3.0:
+- **Evaluate** - Assess and optimize the Product Portfolio
+- **Explore** - Explore new features and product directions
+- **Integrate** - Design and build new Product Releases
+- **Deploy** - Deploy releases to environments
+- **Release** - Release products to market/business
+- **Consume** - Enable consumption of products
+- **Operate** - Monitor and address production issues
 
 ## Development Workflow
 
@@ -141,7 +154,7 @@ This repository contains enterprise architecture models, not code. There is:
 1. **Read model files as XML** when asked about architecture content
 2. **Parse element names and relationships** to understand the model structure
 3. **Reference PDFs and images** as documentation sources
-4. **Use the latest version** (V0.4) as the current state
+4. **Use the latest version** (V0.5) as the current state
 5. **Preserve XML structure** when making any edits
 
 ### DON'T
@@ -161,7 +174,7 @@ To understand the architecture:
 
 Example query to find all Application Components:
 ```bash
-grep -o 'xsi:type="archimate:ApplicationComponent"[^>]*name="[^"]*"' IT4IT_Reference_Architecture-V0.4.archimate
+grep -o 'xsi:type="archimate:ApplicationComponent"[^>]*name="[^"]*"' IT4IT_Reference_Architecture-V0.5.archimate
 ```
 
 ## External Resources
@@ -175,9 +188,10 @@ grep -o 'xsi:type="archimate:ApplicationComponent"[^>]*name="[^"]*"' IT4IT_Refer
 - **Primary Language**: ArchiMate (XML-based)
 - **Tool Required**: Archi (for visual editing)
 - **Total Size**: ~43MB (includes images and PDFs)
-- **Current Model Version**: V0.4
+- **Current Model Version**: V0.5 (aligned with IT4IT 3.0)
+- **IT4IT Standard Version**: 3.0
 - **No License File**: Licensing status unclear
 
 ---
 
-*Last updated: 2026-01-24*
+*Last updated: 2026-01-25*
