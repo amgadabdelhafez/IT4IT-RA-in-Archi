@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="IT4IT V0.4" id="6a18db2b" version="3.1.1">
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" xmlns:canvas="http://www.archimatetool.com/archimate/canvas" name="IT4IT V0.5 (IT4IT 3.0)" id="6a18db2b" version="3.1.1">
   <folder name="Business" id="7b608ab1" type="business"/>
   <folder name="Application" id="cbb6025b" type="application">
     <element xsi:type="archimate:DataObject" id="5054a846" name="Stages">
@@ -10,22 +10,22 @@
     <element xsi:type="archimate:ApplicationComponent" id="78ec8045" name="User Wallet"/>
     <element xsi:type="archimate:DataObject" id="ed1108ee" name="Users"/>
     <element xsi:type="archimate:ApplicationComponent" id="48f5ef2e" name="Enterprise Architecture Component"/>
-    <element xsi:type="archimate:DataObject" id="774b264f" name="Service Architecture"/>
+    <element xsi:type="archimate:DataObject" id="774b264f" name="Product Architecture"/>
     <element xsi:type="archimate:ApplicationComponent" id="69d8ac53" name="Policy Component"/>
     <element xsi:type="archimate:DataObject" id="d7389082" name="Policy"/>
     <element xsi:type="archimate:ApplicationComponent" id="3de0d198" name="Portfolio Demand Component"/>
     <element xsi:type="archimate:DataObject" id="b62c4a15" name="Portfolio Backlog Item"/>
-    <element xsi:type="archimate:ApplicationComponent" id="67073bff" name="Service Portfolio Component"/>
-    <element xsi:type="archimate:DataObject" id="d5cebb36" name="Conceptual Service"/>
-    <element xsi:type="archimate:DataObject" id="8ec6c4fe" name="Conceptual Service Blueprint"/>
+    <element xsi:type="archimate:ApplicationComponent" id="67073bff" name="Product Portfolio Component"/>
+    <element xsi:type="archimate:DataObject" id="d5cebb36" name="Product Vision"/>
+    <element xsi:type="archimate:DataObject" id="8ec6c4fe" name="Product Vision Blueprint"/>
     <element xsi:type="archimate:ApplicationComponent" id="ef45dc57" name="Proposal Component"/>
     <element xsi:type="archimate:DataObject" id="8d0b110d" name="Scope Agreement"/>
     <element xsi:type="archimate:ApplicationComponent" id="536e1f4c" name="Requirement Component"/>
     <element xsi:type="archimate:DataObject" id="3b6e16bd" name="Requirement"/>
     <element xsi:type="archimate:ApplicationComponent" id="b628317f" name="Project Component"/>
     <element xsi:type="archimate:DataObject" id="a1a68f70" name="IT Initiative"/>
-    <element xsi:type="archimate:ApplicationComponent" id="094764ca" name="Service Design Component"/>
-    <element xsi:type="archimate:DataObject" id="f0ade417" name="Logical Service Blueprint"/>
+    <element xsi:type="archimate:ApplicationComponent" id="094764ca" name="Product Design Component"/>
+    <element xsi:type="archimate:DataObject" id="f0ade417" name="Product Design"/>
     <element xsi:type="archimate:ApplicationComponent" id="db2a76f8" name="Source Control Component"/>
     <element xsi:type="archimate:DataObject" id="04325b5e" name="Source"/>
     <element xsi:type="archimate:ApplicationComponent" id="fecea935" name="Defect Component"/>
@@ -35,18 +35,18 @@
     <element xsi:type="archimate:ApplicationComponent" id="e47a834f" name="Build Package Component"/>
     <element xsi:type="archimate:DataObject" id="36ba6435" name="Build Package"/>
     <element xsi:type="archimate:ApplicationComponent" id="8486c686" name="Release Composition Component"/>
-    <element xsi:type="archimate:DataObject" id="7a5d912f" name="Service Release"/>
-    <element xsi:type="archimate:DataObject" id="00ad60f6" name="Service Release Blueprint"/>
+    <element xsi:type="archimate:DataObject" id="7a5d912f" name="Product Release"/>
+    <element xsi:type="archimate:DataObject" id="00ad60f6" name="Product Release Blueprint"/>
     <element xsi:type="archimate:ApplicationComponent" id="6bee1d97" name="Build Component"/>
     <element xsi:type="archimate:DataObject" id="b48ff17c" name="Build"/>
     <element xsi:type="archimate:ApplicationComponent" id="805af5a7" name="Catalog Component"/>
-    <element xsi:type="archimate:DataObject" id="50e7b1b3" name="Service Catalog Entry"/>
+    <element xsi:type="archimate:DataObject" id="50e7b1b3" name="Product Catalog Entry"/>
     <element xsi:type="archimate:ApplicationComponent" id="abecccdc" name="Offer Management Component"/>
     <element xsi:type="archimate:DataObject" id="9dc6687a" name="Offer"/>
     <element xsi:type="archimate:ApplicationComponent" id="c22960df" name="Offer Consumption Component"/>
     <element xsi:type="archimate:DataObject" id="6ea49a80" name="Shopping Cart"/>
     <element xsi:type="archimate:ApplicationComponent" id="841a3f9a" name="Fulfillment Execution Component"/>
-    <element xsi:type="archimate:DataObject" id="4cc09c58" name="Demand Service Model"/>
+    <element xsi:type="archimate:DataObject" id="4cc09c58" name="Desired Product Model"/>
     <element xsi:type="archimate:ApplicationComponent" id="cf7f98aa" name="Request Realization Component"/>
     <element xsi:type="archimate:DataObject" id="d8b2e420" name="Request"/>
     <element xsi:type="archimate:ApplicationComponent" id="1673d18b" name="Usage Component"/>
@@ -58,14 +58,14 @@
     <element xsi:type="archimate:ApplicationComponent" id="d059a127" name="Diagnostics &amp; Remediation Component"/>
     <element xsi:type="archimate:DataObject" id="85cf0376" name="Run Book"/>
     <element xsi:type="archimate:ApplicationComponent" id="dc8d2819" name="Change Control Component"/>
-    <element xsi:type="archimate:ApplicationComponent" id="ad22e314" name="Service Level Component"/>
-    <element xsi:type="archimate:DataObject" id="336d6aeb" name="Service Contract"/>
+    <element xsi:type="archimate:ApplicationComponent" id="ad22e314" name="Product Level Component"/>
+    <element xsi:type="archimate:DataObject" id="336d6aeb" name="Product Contract"/>
     <element xsi:type="archimate:ApplicationComponent" id="8ee07bd0" name="Incident Component"/>
     <element xsi:type="archimate:DataObject" id="713fd26d" name="Incident"/>
-    <element xsi:type="archimate:ApplicationComponent" id="e65b3302" name="Service Monitoring Component"/>
-    <element xsi:type="archimate:DataObject" id="1eb426ff" name="Service Monitor"/>
+    <element xsi:type="archimate:ApplicationComponent" id="e65b3302" name="Product Monitoring Component"/>
+    <element xsi:type="archimate:DataObject" id="1eb426ff" name="Product Monitor"/>
     <element xsi:type="archimate:ApplicationComponent" id="296fe9d8" name="Configuration Management Component"/>
-    <element xsi:type="archimate:DataObject" id="f4ef71df" name="Actual Service CIs"/>
+    <element xsi:type="archimate:DataObject" id="f4ef71df" name="Actual Product CIs"/>
     <element xsi:type="archimate:ApplicationComponent" id="036937f2" name="Event Component"/>
     <element xsi:type="archimate:DataObject" id="6620abeb" name="Event"/>
     <element xsi:type="archimate:DataObject" id="afec3d5b" name="Fulfillment Request"/>
@@ -80,11 +80,35 @@
     <element xsi:type="archimate:ApplicationComponent" id="f5f521b3" name="ServiceNow Instance"/>
     <element xsi:type="archimate:ApplicationComponent" id="b0a14f84" name="Engagement Experience Portal"/>
     <element xsi:type="archimate:DataObject" id="94b86c7c" name="User Profile"/>
-    <element xsi:type="archimate:DataObject" id="315377c8" name="Service Catalog"/>
+    <element xsi:type="archimate:DataObject" id="315377c8" name="Product Catalog"/>
     <element xsi:type="archimate:DataObject" id="367c0fd8" name="Collaboration"/>
     <element xsi:type="archimate:DataObject" id="2b605a3a" name="Knowledge"/>
     <element xsi:type="archimate:DataObject" id="f39381f3" name="Self Service Portal"/>
     <element xsi:type="archimate:DataObject" id="1f2e853b" name="Offer Catalog"/>
+    <element xsi:type="archimate:ApplicationComponent" id="a1b2c3d4" name="Strategy Component">
+      <documentation>New in IT4IT 3.0 - Manages digital strategy alignment and business outcomes</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="b2c3d4e5" name="Digital Product">
+      <documentation>IT4IT 3.0 core concept - represents an IT-enabled product or service managed through its lifecycle</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="c3d4e5f6" name="Digital Product Backbone">
+      <documentation>IT4IT 3.0 - The integrated data objects that ensure traceability through the Digital Product Management lifecycle</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="d4e5f6a7" name="Strategy">
+      <documentation>IT4IT 3.0 - Business and IT strategy alignment data object</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="e5f6a7b8" name="Product Backlog">
+      <documentation>IT4IT 3.0 - Agile/DevOps aligned backlog for product development</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="f6a7b8c9" name="Feature">
+      <documentation>IT4IT 3.0 - Product feature representing a unit of functionality</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="a7b8c9d0" name="Epic">
+      <documentation>IT4IT 3.0 - Large body of work that can be broken down into features</documentation>
+    </element>
+    <element xsi:type="archimate:DataObject" id="b8c9d0e1" name="User Story">
+      <documentation>IT4IT 3.0 - Agile user story representing a user requirement</documentation>
+    </element>
   </folder>
   <folder name="Technology" id="8b588329" type="technology"/>
   <folder name="Motivation" id="2dfbc263" type="motivation"/>
@@ -133,7 +157,7 @@
     <element xsi:type="archimate:AssociationRelationship" id="4f86fdc9" source="6620abeb" target="f4ef71df"/>
   </folder>
   <folder name="Views" id="0707319d" type="diagrams">
-    <element xsi:type="archimate:ArchimateDiagramModel" id="0f558158" name="IT4IT Level1">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="0f558158" name="IT4IT 3.0 Level1">
       <child xsi:type="archimate:DiagramObject" id="aedb5d5a" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="48f5ef2e">
         <bounds x="252" y="144" width="253" height="145"/>
         <child xsi:type="archimate:DiagramObject" id="962b9df7" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="774b264f">
@@ -422,80 +446,84 @@
       </child>
       <child xsi:type="archimate:Note" id="d09b7d89" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
         <bounds x="266" y="1176" width="261" height="108"/>
-        <content>Strategy to Portfolio</content>
+        <content>Plan (Evaluate + Explore)</content>
       </child>
       <child xsi:type="archimate:Note" id="7a67391b" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
         <bounds x="660" y="1188" width="493" height="108"/>
-        <content>Requirements to Deploy</content>
+        <content>Build (Integrate + Deploy + Release)</content>
       </child>
       <child xsi:type="archimate:Note" id="723c897a" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
         <bounds x="1404" y="1188" width="493" height="108"/>
-        <content>Request to Fulfill</content>
+        <content>Deliver (Consume)</content>
       </child>
       <child xsi:type="archimate:Note" id="f18cfe5d" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
         <bounds x="2184" y="1188" width="493" height="108"/>
-        <content>Detect to Correct</content>
+        <content>Run (Operate)</content>
       </child>
     </element>
-    <element xsi:type="canvas:CanvasModel" id="9a154b09" name="Value Streams">
+    <element xsi:type="canvas:CanvasModel" id="9a154b09" name="Value Streams (IT4IT 3.0)">
       <child xsi:type="canvas:CanvasModelBlock" id="5287ee63" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
-        <bounds x="144" y="20" width="97" height="89"/>
-        <content>Strategy to Portfolio
-
-(Plan)</content>
+        <bounds x="84" y="20" width="73" height="89"/>
+        <content>Evaluate</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="595fa93e" textAlignment="2" fillColor="#00a6dd" borderColor="#000000" textPosition="1">
-        <bounds x="252" y="20" width="97" height="89"/>
-        <content>Requirement to Deploy
-
-(Build)</content>
+        <bounds x="162" y="20" width="73" height="89"/>
+        <content>Explore</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="8a949d89" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
-        <bounds x="360" y="20" width="97" height="89"/>
-        <content>Request to Fulfill
-
-(Deliver)</content>
+        <bounds x="240" y="20" width="73" height="89"/>
+        <content>Integrate</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="90c2e30c" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
-        <bounds x="468" y="20" width="97" height="89"/>
-        <content>Detect to Correct
-
-(Run)</content>
+        <bounds x="318" y="20" width="73" height="89"/>
+        <content>Deploy</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="vs3release" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
+        <bounds x="396" y="20" width="73" height="89"/>
+        <content>Release</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="vs3consume" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
+        <bounds x="474" y="20" width="73" height="89"/>
+        <content>Consume</content>
+      </child>
+      <child xsi:type="canvas:CanvasModelBlock" id="vs3operate" textAlignment="2" fillColor="#00a6dd" borderColor="#000000">
+        <bounds x="552" y="20" width="73" height="89"/>
+        <content>Operate</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="1f9b523c" fontColor="#ffffff" textAlignment="2" fillColor="#78447b" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="120" width="421" height="37"/>
-        <content>Reference Architecture</content>
+        <bounds x="84" y="120" width="541" height="37"/>
+        <content>Digital Product Backbone (IT4IT 3.0)</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="c052fe2b" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="168" width="421" height="25"/>
+        <bounds x="84" y="168" width="541" height="25"/>
         <content>Governance Risk &amp; Compliance</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="60d8d78c" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="204" width="421" height="25"/>
+        <bounds x="84" y="204" width="541" height="25"/>
         <content>Sourcing &amp; Vendor</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="95886a45" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="240" width="421" height="25"/>
+        <bounds x="84" y="240" width="541" height="25"/>
         <content>Intelligence &amp; Reporting</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="e657a656" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="276" width="421" height="25"/>
+        <bounds x="84" y="276" width="541" height="25"/>
         <content>Finance &amp; Assets</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="6091b3b3" fontColor="#000000" textAlignment="2" fillColor="#60b3cf" borderColor="#000000" textPosition="4">
-        <bounds x="144" y="312" width="421" height="25"/>
+        <bounds x="84" y="312" width="541" height="25"/>
         <content>Resource and Project</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="d8d5e4b5" textAlignment="2" borderColor="#ffffff" textPosition="4">
-        <bounds x="36" y="168" width="73" height="169"/>
+        <bounds x="4" y="168" width="73" height="169"/>
         <content>Supporting Activities</content>
       </child>
       <child xsi:type="canvas:CanvasModelBlock" id="04910d4b" textAlignment="2" borderColor="#ffffff" textPosition="4">
-        <bounds x="36" y="20" width="73" height="89"/>
+        <bounds x="4" y="20" width="73" height="89"/>
         <content>Value Streams</content>
       </child>
     </element>
-    <element xsi:type="archimate:ArchimateDiagramModel" id="4c609f6c" name="R2F L2">
+    <element xsi:type="archimate:ArchimateDiagramModel" id="4c609f6c" name="Deliver (Consume) L2">
       <child xsi:type="archimate:DiagramObject" id="eb3fcef1" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="1" fillColor="#00a7de" archimateElement="805af5a7">
         <bounds x="240" y="648" width="337" height="145"/>
         <child xsi:type="archimate:DiagramObject" id="a3bb654f" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="50e7b1b3">
@@ -565,7 +593,7 @@
       </child>
       <child xsi:type="archimate:Note" id="24c9004c" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
         <bounds x="12" y="24" width="493" height="108"/>
-        <content>Request to Fulfill</content>
+        <content>Deliver (Consume)</content>
       </child>
       <child xsi:type="archimate:DiagramObject" id="e488dc75" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="2" fillColor="#7fa1b3" archimateElement="b0a14f84">
         <bounds x="228" y="72" width="1597" height="121"/>
