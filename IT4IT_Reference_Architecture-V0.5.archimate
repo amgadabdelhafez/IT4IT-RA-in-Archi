@@ -614,6 +614,168 @@
         </child>
       </child>
     </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="plan-l2-001" name="Plan (Evaluate + Explore) L2">
+      <child xsi:type="archimate:Note" id="plan-note-001" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
+        <bounds x="12" y="24" width="493" height="108"/>
+        <content>Plan (Evaluate + Explore)</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-001" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="a1b2c3d4">
+        <bounds x="240" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-002" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="d4e5f6a7">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-003" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="48f5ef2e">
+        <bounds x="240" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-004" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="774b264f">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-005" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="69d8ac53">
+        <bounds x="240" y="540" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-006" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="d7389082">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-007" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="3de0d198">
+        <bounds x="600" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-008" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="b62c4a15">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-009" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="67073bff">
+        <bounds x="600" y="360" width="289" height="205"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-010" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="d5cebb36">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-011" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="8ec6c4fe">
+          <bounds x="156" y="120" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="plan-obj-012" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="ef45dc57">
+        <bounds x="600" y="600" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="plan-obj-013" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="8d0b110d">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="build-l2-001" name="Build (Integrate + Deploy + Release) L2">
+      <child xsi:type="archimate:Note" id="build-note-001" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
+        <bounds x="12" y="24" width="600" height="108"/>
+        <content>Build (Integrate + Deploy + Release)</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-001" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="536e1f4c">
+        <bounds x="240" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-002" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="3b6e16bd">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-003" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="b628317f">
+        <bounds x="240" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-004" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="a1a68f70">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-005" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="094764ca">
+        <bounds x="240" y="540" width="289" height="205"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-006" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="f0ade417">
+          <bounds x="24" y="120" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-007" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="db2a76f8">
+        <bounds x="600" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-008" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="04325b5e">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-009" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="6bee1d97">
+        <bounds x="600" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-010" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="b48ff17c">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-011" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="29cbfa7d">
+        <bounds x="960" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-012" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="f0a1ff47">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-013" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="fecea935">
+        <bounds x="960" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-014" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="584b481e">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-015" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="e47a834f">
+        <bounds x="600" y="540" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-016" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="36ba6435">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="build-obj-017" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="8486c686">
+        <bounds x="960" y="540" width="289" height="205"/>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-018" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="7a5d912f">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+        <child xsi:type="archimate:DiagramObject" id="build-obj-019" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="00ad60f6">
+          <bounds x="156" y="120" width="121" height="67"/>
+        </child>
+      </child>
+    </element>
+    <element xsi:type="archimate:ArchimateDiagramModel" id="run-l2-001" name="Run (Operate) L2">
+      <child xsi:type="archimate:Note" id="run-note-001" font="1|Lucida Grande|36.0|1|COCOA|1|LucidaGrande-Bold" textAlignment="2" borderType="2">
+        <bounds x="12" y="24" width="493" height="108"/>
+        <content>Run (Operate)</content>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-001" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="76f3865c">
+        <bounds x="240" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-002" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="ce789cdc">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-003" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="8ee07bd0">
+        <bounds x="240" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-004" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="713fd26d">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-005" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="036937f2">
+        <bounds x="240" y="540" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-006" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="6620abeb">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-007" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="e65b3302">
+        <bounds x="600" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-008" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="1eb426ff">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-009" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="296fe9d8">
+        <bounds x="600" y="360" width="289" height="205"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-010" fontColor="#ffffff" textAlignment="2" fillColor="#79437c" archimateElement="f4ef71df">
+          <bounds x="24" y="120" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-011" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="d059a127">
+        <bounds x="600" y="600" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-012" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="85cf0376">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-013" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="dc8d2819">
+        <bounds x="960" y="180" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-014" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="ff08f776">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="run-obj-015" font="1|Lucida Grande|18.0|0|COCOA|1|LucidaGrande" textAlignment="4" fillColor="#00a7de" archimateElement="ad22e314">
+        <bounds x="960" y="360" width="289" height="145"/>
+        <child xsi:type="archimate:DiagramObject" id="run-obj-016" fontColor="#ffffff" textAlignment="2" fillColor="#000000" archimateElement="336d6aeb">
+          <bounds x="24" y="60" width="121" height="67"/>
+        </child>
+      </child>
+    </element>
   </folder>
   <purpose></purpose>
 </archimate:model>
